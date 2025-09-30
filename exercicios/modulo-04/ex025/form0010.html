@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ept-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
     <form action="cadastro.php" method="get" autocomplete="on">
 
         <p>
-            <label for="iano">Em que ano você nasceu?</label>
+            <label for="iano">Em que ano você nasceu? </label>
             <input type="number" name="ano" id="iano" min="1900" max="2025" oninput="calcIdade()">
         </p>
 
@@ -23,13 +23,12 @@
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
-
     </form>
 
     <script>
         function calcIdade() {
-            let atual = new Date().getFullYear
-            iidade.innerHTML = Number(atual) - Number(iano.value)
+        let atual  = new Date().getFullYear()
+        iidade.innerHTML = Number(atual) - Number(i)
         }
     </script>
 </body>
