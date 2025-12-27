@@ -12,6 +12,7 @@ body, html {
 
 header {
    background-color: rgb(148, 148, 148);
+   margin-bottom: 10px;
 }
 
 header > h1 {
@@ -57,7 +58,7 @@ menu > ul > li > a:hover {
 main {
    width: 90vw;
    background-color: white;
-   margin: 10px;
+   margin: auto;
    padding: 10px;
    border-radius: 10px;
 }
